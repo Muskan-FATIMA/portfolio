@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,6 +21,8 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  
     <link rel="stylesheet" href="style.css" />
 
     <title>Portfolio</title>
@@ -40,16 +42,16 @@
     </header>
     <section class="home" id="home">
       <div class="home-content">
-        <h3><span>Hi there! </span>It's Me</h3>
-        <h1><span>M</span>uskan <span>P</span>erween</h1>
-        <h3>And I'm a <span class="text"></span></h3>
+        <h3><span>Hey there!</span></h3>
+        <h1>I'm <span>M</span>uskan <span>P</span>erween</h1>
         <p>
-          with a passion for creating captivating user interfaces.<br />Eager to
-          learn and grow in the ever-evolving world of<br />web development.
+          A passionate <span  class="text">Frontend Developer </span>
+          skilled in creating fully <br> responsive and innovative websites. 
+          Dedicated to learning  <br> new technologies and collaborating on exciting projects. <br>
           Let's build something amazing together!
         </p>
 
-        <div class="home-sci">
+        <div class="link-icon">
           <a href="https://www.linkedin.com/in/muskanperween/" target="_blank"
             ><i class="bx bxl-linkedin"></i
           ></a>
@@ -72,137 +74,168 @@
       </div>
     </section>
 
-    <section class="about" id="about">
-      <div class="about-img">
-        <img src="assets/muskan.jpeg" alt="" />
+<!-- About Section -->
+<section class="about" id="about">
+  <div class="about-container">
+    <div class="about-text">
+      <h2>About <span>Me</span></h2>
+      <p>
+        Hello there! I'm <span>Muskan Perween</span>, a frontend developer proficient in the essential languages of web development, including 
+        HTML, CSS, and JavaScript. I bring expertise in popular frameworks and libraries like Bootstrap for responsive design and React for dynamic user
+        interfaces. Additionally, my foundation in programming languages such as C, C++, and Python allows me to grasp new concepts quickly.
+      </p>
+      <p>
+        Beyond technical skills, I possess strong soft skills essential for collaboration and problem-solving. Effective communication, adaptability, and a passion
+        for continuous learning drive me in delivering high-quality projects. I thrive in team environments and am always eager to take on new challenges.
+      </p>
+      <p>
+        Let's connect and explore how we can create impactful digital experiences together!
+      </p>
+      <a href="#contact" class="btn-connect">Connect with Me</a>
+    </div>
+    <div class="about-icons">
+      <div class="icon">
+        <i class="fas fa-laptop-code"></i>
+        <p>Web Development</p>
       </div>
-
-      <div class="about-text">
-        <h2>About <span>Me</span></h2>
-        <h4>Frontend Developer</h4>
-        <p>
-          Hello there! I'm<span> Muskan Perween</span>, a frontend developer
-          proficient in the essential languages of web <br />
-          development,including HTML, CSS, and JavaScript. I bring expertise in
-          popular frameworks and libraries <br />
-          like Bootstrap for responsive design and React for dynamic user
-          interfaces. Additionally,my foundation <br />
-          in programming languages such as C, C++, and Java allows me to grasp
-          new concepts quickly.
-          <br /><br /><br />
-          Beyond technical skills, I possess strong soft skills essential for
-          collaboration and <br />
-          problem-solving. Effective communication, adaptability, and a passion
-          for continuous <br />
-          learning drive me in delivering high-quality projects. I thrive in
-          team environments <br />
-          and am always eager to take on new challenges.
-          <br /><br />
-          Let's connect and explore how we can create impactful digital
-          experiences together!
-        </p>
+      <div class="icon">
+        <i class="fas fa-lightbulb"></i>
+        <p>Creative Solutions</p>
       </div>
-    </section>
-    <h1 class="sub-title">My <span>Skills</span></h1>
-    <section id="skills">
-      <div class="skill-container1">
-        <div class="html sk">
-          <img src="assets/html5.png" alt="" class="skill-img" />
+      <div class="icon">
+        <i class="fas fa-users"></i>
+        <p>Team Player</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Skills Section -->
+<h1 class="sub-title">My <span>Skills</span></h1>
+<section id="skills">
+  <div class="skills-container">
+    <!-- Languages -->
+    <div class="skill-category">
+      <h2 class="category-title">Languages</h2>
+      <div class="skill-container">
+        <div class="html">
+          <img src="assets/html5.png" alt="HTML5" class="skill-img" />
           <h3 class="skill-heading">HTML5</h3>
         </div>
-        <div class="css sk">
-          <img src="assets/css.png" alt="" class="skill-img" />
-          <h3 class="skill-heading">Css</h3>
+        <div class="css">
+          <img src="assets/css.png" alt="CSS" class="skill-img" />
+          <h3 class="skill-heading">CSS</h3>
         </div>
-        <div class="js sk">
-          <img src="assets/js.png" alt="" class="skill-img" />
+        <div class="js">
+          <img src="assets/js.png" alt="JavaScript" class="skill-img" />
           <h3 class="skill-heading">JavaScript</h3>
         </div>
-        <div class="bootstrap sk">
-          <img src="assets/bootstrap.png" alt="" class="skill-img" />
-          <h3 class="skill-heading">Bootstrap</h3>
-        </div>
-      </div>
-      <div class="skill-container2">
-        <div class="react sk">
-          <img src="assets/react.png" alt="" class="skill-img" />
-          <h3 class="skill-heading">React</h3>
-        </div>
-        <div class="github sk">
-          <img src="assets/github logo.png" alt="" class="skill-img" />
-          <h3 class="skill-heading">GitHub</h3>
-        </div>
-        <div class="cc sk">
-          <img src="assets/c++.png" alt="" class="skill-img" />
+        <div class="cc">
+          <img src="assets/c++.png" alt="C++" class="skill-img" />
           <h3 class="skill-heading">C++</h3>
         </div>
-        <div class="java sk">
-          <img src="assets/java.png" alt="" class="skill-img" />
-          <h3 class="skill-heading">Java</h3>
+        <div class="python">
+          <img src="assets/python.png" alt="python" class="skill-img" />
+          <h3 class="skill-heading">Python</h3>
         </div>
       </div>
-    </section>
+    </div>
 
-    <h1 class="sub-title">Latest<span> Projects</span></h1>
+    <!-- Frameworks -->
+    <div class="skill-category">
+      <h2 class="category-title">Frameworks and Libraries</h2>
+      <div class="skill-container">
+        <div class="bootstrap">
+          <img src="assets/bootstrap.png" alt="Bootstrap" class="skill-img" />
+          <h3 class="skill-heading">Bootstrap</h3>
+        </div>
+        <div class="react">
+          <img src="assets/react.png" alt="React" class="skill-img" />
+          <h3 class="skill-heading">React</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tools -->
+    <div class="skill-category">
+      <h2 class="category-title">Tools</h2>
+      <div class="skill-container">
+        <div class="github">
+          <img src="assets/git.png" alt="GitHub" class="skill-img" />
+          <h3 class="skill-heading">Git</h3>
+        </div>
+        <div class="github">
+          <img src="assets/github logo.png" alt="GitHub" class="skill-img" />
+          <h3 class="skill-heading">GitHub</h3>
+        </div>
+        <div class="github">
+          <img src="assets/figma.png" alt="GitHub" class="skill-img" />
+          <h3 class="skill-heading">Figma</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Project Section -->
+    <h1 class="sub-title">My <span>Projects</span></h1>
     <section class="projects" id="projects">
-      <div class="project-container1">
-        <div class="yummy pc">
-          <img src="assets/yummy.png" alt="" class="project-img" />
-          <h3 class="project-heading">Yummy in the tummy</h3>
-          <p class="project-para">
-            A dynamic restaurant website with <br />menu, services, and contact
-            sections.
-          </p>
-
-          <a
-            href="https://muskan-fatima.github.io/yummy-in-the-tummy/"
-            class="p-btn"
-            target="_blank"
-            >Github</a
-          >
+      <!-- DonorConnect Project Card -->
+      <div class="project-card">
+        <div class="project-image">
+          <img src="assets/donor.png" alt="DonorConnect" class="project-img" />
         </div>
-        <div class="spotify pc">
-          <img src="assets/spotify.png" alt="" class="project-img" />
-          <h3 class="project-heading">Spotify-WebPlayer</h3>
+        <div class="project-content">
+          <h3 class="project-heading">DonorConnect</h3>
+          <p class="project-tagline">Connecting Donors to Save Lives</p>
           <p class="project-para">
-            Spotify clone , UI/UX design,<br />
-            and responsive layout design.
-          </p>
-          <a
-            href="https://muskan-fatima.github.io/Spotify-Web-player/"
-            class="p-btn"
-            target="_blank"
-            >Github</a
-          >
+             DonorConnect is a comprehensive web platform that bridges the gap between blood donors and recipients. It allows users to register, submit blood requests, and receive notifications about new requests. The platform also features a feedback system to acknowledge and reward donors for their contributions.
+  
+                      </p>
+          <div class="project-buttons">
+            <a
+              href="https://donorconnect-website.com"
+              class="p-btn"
+              target="_blank"
+            >Live Website</a>
+            <a
+              href="https://github.com/muskan-fatima/donorconnect"
+              class="p-btn"
+              target="_blank"
+            >GitHub Repository</a>
+          </div>
         </div>
       </div>
-
-      <div class="project-container2">
-        <div class="palette pc">
-          <img src="assets/palatte.png" alt="" class="project-img" />
-          <h3 class="project-heading">Playful-palette-Picker</h3>
-          <p class="project-para">
-            Random color generator with an interactive<br />
-            interface and user interaction design. <br />
-          </p>
-          <a
-            href="https://muskan-fatima.github.io/Playful-Palette-Picker/"
-            class="p-btn"
-            target="_blank"
-            >Github</a
-          >
+    
+      <!-- Example Project Card -->
+      <div class="project-card">
+        <div class="project-image">
+          <img src="assets/yummy.png" alt="Example Project" class="project-img" />
         </div>
-        <div class="simonsays pc">
-          <img src="assets/simonsays.png alt="" class="project-img" />
-          <h3 class="project-heading">Simon Says</h3>
+        <div class="project-content">
+          <h3 class="project-heading">Yummy in the Tummy</h3>
+          <p class="project-tagline">Delicious food, simple service</p>
           <p class="project-para">
-            Memory sequence repetition game<br />
-            with an user interactive interface.
+            Yummy in the tummy is a dynamic and visually appealing restaurant website. It features a comprehensive menu showcasing a variety of delicious dishes, a services section detailing the restaurant's offerings, and an easy-to-use contact section for reservations and inquiries.
           </p>
-          <a href="#about" class="p-btn" target="_blank">Github</a>
+          <div class="project-buttons">
+            <a
+              href="https://example.com"
+              class="p-btn"
+              target="_blank"
+            >Live Website</a>
+            <a
+              href="https://github.com/example/example-repo"
+              class="p-btn"
+              target="_blank"
+            >GitHub Repository</a>
+          </div>
         </div>
       </div>
     </section>
+    
+    
+    <!-- Contact section -->
     <section class="contact" id="contact">
       <div class="contact-text">
         <h2>Contact <span>Me</span></h2>
@@ -214,11 +247,7 @@
           exploring opportunities, or looking to expand your <br />
           professional network, I'm excited about the possibilities!
         </p>
-        <div class="contact-list">
-          <li><i class="bx bxs-send"></i>Contact@gmail.com</li>
-          <li><i class="bx bxs-phone"></i>0996738419</li>
-        </div>
-        <div class="contact-icon">
+        <div class="link-icon">
           <a href="https://www.linkedin.com/in/muskanperween/" target="_blank">
             <i class="bx bxl-linkedin"></i>
           </a>
@@ -257,15 +286,15 @@
             id="t-box"
             cols="40"
             rows="10"
-            placeholder="Enter Your Message....."
+            placeholder="Your Message....."
           ></textarea>
-          <input type="submit" value="submit" class="send" />
+          <input type="submit" value="Send Message" class="send" />
         </form>
       </div>
     </section>
     <footer class="footer">
       <div class="footer-text">
-        <p>copyright &#169; 2024 by @muskanperween &#9829;</p>
+        <p> &#169; 2024 | muskanperween</p>
       </div>
       <div class="footerIcon">
         <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
