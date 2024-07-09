@@ -887,6 +887,10 @@ form textarea {
     font-size: 1rem;
   }
 
+  .y-btn {
+    padding: 10px 14px;
+  }
+
   .project-heading {
     font-size: 1.8rem;
   }
